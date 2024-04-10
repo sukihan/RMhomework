@@ -1,0 +1,10 @@
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/uninstall.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/answer_uninstall.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/answer.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/test.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/edit_cache.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/rebuild_cache.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/list_install_components.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/install.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/install/local.dir
+/home/sukihan/RMhomework/answer/build/answer/CMakeFiles/install/strip.dir

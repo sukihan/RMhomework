@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000517] (answer) JobQueued: {'identifier': 'answer', 'dependencies': OrderedDict()}
+[0.000807] (answer) JobStarted: {'identifier': 'answer'}
+[0.014106] (answer) JobProgress: {'identifier': 'answer', 'progress': 'cmake'}
+[0.015384] (answer) JobProgress: {'identifier': 'answer', 'progress': 'build'}
+[0.016828] (answer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sukihan/RMhomework/answer/build/answer', '--', '-j16', '-l16'], 'cwd': '/home/sukihan/RMhomework/answer/build/answer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sukihan'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sukihan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.88.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01ff8ab6cb7dd01e58358321661534aa'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sukihan'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sukihan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sukihan-Lenovo-G5000-APH8:@/tmp/.ICE-unix/1818,unix/sukihan-Lenovo-G5000-APH8:/tmp/.ICE-unix/1818'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f0c7f9d_72d8_41fb_b245_08e298c3ab17'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CSW7L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c6ab7fa0dd.sock'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sukihan/RMhomework/answer/build/answer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01ff8ab6cb7dd01e58358321661534aa'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067817] (answer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098667] (-) TimerEvent: {}
+[0.198974] (-) TimerEvent: {}
+[0.273452] (answer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299086] (-) TimerEvent: {}
+[0.336041] (answer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.340745] (answer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.352997] (answer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375367] (answer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399174] (-) TimerEvent: {}
+[0.406191] (answer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499492] (-) TimerEvent: {}
+[0.523442] (answer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.526094] (answer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599603] (-) TimerEvent: {}
+[0.700047] (-) TimerEvent: {}
+[0.796934] (answer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800172] (-) TimerEvent: {}
+[0.900695] (-) TimerEvent: {}
+[1.001686] (-) TimerEvent: {}
+[1.078228] (answer) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.101882] (-) TimerEvent: {}
+[1.202309] (-) TimerEvent: {}
+[1.301139] (answer) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.302433] (-) TimerEvent: {}
+[1.336527] (answer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.402607] (-) TimerEvent: {}
+[1.493202] (answer) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.493920] (answer) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sukihan/RMhomework/answer/include\n'}
+[1.494148] (answer) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.496507] (answer) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.502660] (answer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.502921] (-) TimerEvent: {}
+[1.506189] (answer) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.531419] (answer) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.531754] (answer) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.535066] (answer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.544978] (answer) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.567826] (answer) StdoutLine: {'line': b'-- Generating done\n'}
+[1.570730] (answer) StdoutLine: {'line': b'-- Build files have been written to: /home/sukihan/RMhomework/answer/build/answer\n'}
+[1.603018] (-) TimerEvent: {}
+[1.639443] (answer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/answer.dir/src/answer.cpp.o\x1b[0m\n'}
+[1.703195] (-) TimerEvent: {}
+[1.803743] (-) TimerEvent: {}
+[1.904158] (-) TimerEvent: {}
+[2.004540] (-) TimerEvent: {}
+[2.104945] (-) TimerEvent: {}
+[2.205550] (-) TimerEvent: {}
+[2.306056] (-) TimerEvent: {}
+[2.406472] (-) TimerEvent: {}
+[2.506887] (-) TimerEvent: {}
+[2.607346] (-) TimerEvent: {}
+[2.707775] (-) TimerEvent: {}
+[2.808105] (-) TimerEvent: {}
+[2.908583] (-) TimerEvent: {}
+[3.009873] (-) TimerEvent: {}
+[3.111164] (-) TimerEvent: {}
+[3.211649] (-) TimerEvent: {}
+[3.312074] (-) TimerEvent: {}
+[3.412425] (-) TimerEvent: {}
+[3.512713] (-) TimerEvent: {}
+[3.613087] (-) TimerEvent: {}
+[3.713409] (-) TimerEvent: {}
+[3.813686] (-) TimerEvent: {}
+[3.914112] (-) TimerEvent: {}
+[4.014489] (-) TimerEvent: {}
+[4.114818] (-) TimerEvent: {}
+[4.215174] (-) TimerEvent: {}
+[4.315451] (-) TimerEvent: {}
+[4.415786] (-) TimerEvent: {}
+[4.516113] (-) TimerEvent: {}
+[4.557407] (answer) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sukihan/RMhomework/answer/src/answer.cpp:6\x1b[m\x1b[K:\n'}
+[4.557648] (answer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sukihan/RMhomework/answer/include/answer/GetClickPoint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcv::Point2f GetClickPoint(cv::Mat)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.557752] (answer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sukihan/RMhomework/answer/include/answer/GetClickPoint.h:34:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<float> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.557848] (answer) StderrLine: {'line': b'   34 |     for(int i = 0 ;\x1b[01;35m\x1b[Ki < contours.size()\x1b[m\x1b[K;i++){\n'}
+[4.557923] (answer) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.617005] (-) TimerEvent: {}
+[4.717325] (-) TimerEvent: {}
+[4.817601] (-) TimerEvent: {}
+[4.917962] (-) TimerEvent: {}
+[5.018321] (-) TimerEvent: {}
+[5.118653] (-) TimerEvent: {}
+[5.219001] (-) TimerEvent: {}
+[5.319339] (-) TimerEvent: {}
+[5.419727] (-) TimerEvent: {}
+[5.520152] (-) TimerEvent: {}
+[5.620509] (-) TimerEvent: {}
+[5.720844] (-) TimerEvent: {}
+[5.821177] (-) TimerEvent: {}
+[5.921553] (-) TimerEvent: {}
+[6.021960] (-) TimerEvent: {}
+[6.122244] (-) TimerEvent: {}
+[6.222585] (-) TimerEvent: {}
+[6.322915] (-) TimerEvent: {}
+[6.423232] (-) TimerEvent: {}
+[6.523566] (-) TimerEvent: {}
+[6.623940] (-) TimerEvent: {}
+[6.724225] (-) TimerEvent: {}
+[6.824580] (-) TimerEvent: {}
+[6.924883] (-) TimerEvent: {}
+[7.025548] (-) TimerEvent: {}
+[7.125929] (-) TimerEvent: {}
+[7.226183] (-) TimerEvent: {}
+[7.326575] (-) TimerEvent: {}
+[7.427014] (-) TimerEvent: {}
+[7.527339] (-) TimerEvent: {}
+[7.627670] (-) TimerEvent: {}
+[7.728001] (-) TimerEvent: {}
+[7.828327] (-) TimerEvent: {}
+[7.928656] (-) TimerEvent: {}
+[8.028985] (-) TimerEvent: {}
+[8.129311] (-) TimerEvent: {}
+[8.229640] (-) TimerEvent: {}
+[8.329983] (-) TimerEvent: {}
+[8.430313] (-) TimerEvent: {}
+[8.530642] (-) TimerEvent: {}
+[8.630986] (-) TimerEvent: {}
+[8.731405] (-) TimerEvent: {}
+[8.831977] (-) TimerEvent: {}
+[8.932616] (-) TimerEvent: {}
+[8.970078] (answer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable answer\x1b[0m\n'}
+[9.032765] (-) TimerEvent: {}
+[9.133197] (-) TimerEvent: {}
+[9.233538] (-) TimerEvent: {}
+[9.333840] (-) TimerEvent: {}
+[9.434090] (-) TimerEvent: {}
+[9.534394] (-) TimerEvent: {}
+[9.566501] (answer) StdoutLine: {'line': b'[100%] Built target answer\n'}
+[9.579187] (answer) CommandEnded: {'returncode': 0}
+[9.607696] (answer) JobProgress: {'identifier': 'answer', 'progress': 'install'}
+[9.616758] (answer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sukihan/RMhomework/answer/build/answer'], 'cwd': '/home/sukihan/RMhomework/answer/build/answer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sukihan'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sukihan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.88.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01ff8ab6cb7dd01e58358321661534aa'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sukihan'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sukihan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sukihan-Lenovo-G5000-APH8:@/tmp/.ICE-unix/1818,unix/sukihan-Lenovo-G5000-APH8:/tmp/.ICE-unix/1818'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f0c7f9d_72d8_41fb_b245_08e298c3ab17'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CSW7L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c6ab7fa0dd.sock'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sukihan/RMhomework/answer/build/answer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01ff8ab6cb7dd01e58358321661534aa'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.622209] (answer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.622451] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/package_run_dependencies/answer\n'}
+[9.622690] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/parent_prefix_path/answer\n'}
+[9.622824] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/environment/ament_prefix_path.sh\n'}
+[9.622920] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/environment/ament_prefix_path.dsv\n'}
+[9.623119] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/environment/path.sh\n'}
+[9.623246] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/environment/path.dsv\n'}
+[9.623356] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.bash\n'}
+[9.623463] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.sh\n'}
+[9.623554] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.zsh\n'}
+[9.623627] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.dsv\n'}
+[9.623656] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/package.dsv\n'}
+[9.623686] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/packages/answer\n'}
+[9.623726] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/cmake/answerConfig.cmake\n'}
+[9.623756] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/cmake/answerConfig-version.cmake\n'}
+[9.623802] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/package.xml\n'}
+[9.623963] (answer) StdoutLine: {'line': b'-- Installing: /home/sukihan/RMhomework/answer/install/answer/lib/answer/answer\n'}
+[9.629412] (answer) StdoutLine: {'line': b'-- Set runtime path of "/home/sukihan/RMhomework/answer/install/answer/lib/answer/answer" to ""\n'}
+[9.631429] (answer) CommandEnded: {'returncode': 0}
+[9.634484] (-) TimerEvent: {}
+[9.664913] (answer) JobEnded: {'identifier': 'answer', 'rc': 0}
+[9.665424] (-) EventReactorShutdown: {}

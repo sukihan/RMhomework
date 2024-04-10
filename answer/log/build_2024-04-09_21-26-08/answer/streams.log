@@ -1,0 +1,8 @@
+[0.015s] Invoking command in '/home/sukihan/RMhomework/answer/build/answer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sukihan/RMhomework/answer -DCMAKE_INSTALL_PREFIX=/home/sukihan/RMhomework/answer/install/answer
+[0.034s] [31mCMake Error at CMakeLists.txt:50:
+[0.034s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.034s]   "install{TARGETS".
+[0.034s] 
+[0.034s] [0m
+[0.034s] -- Configuring incomplete, errors occurred!
+[0.038s] Invoked command in '/home/sukihan/RMhomework/answer/build/answer' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sukihan/RMhomework/answer -DCMAKE_INSTALL_PREFIX=/home/sukihan/RMhomework/answer/install/answer

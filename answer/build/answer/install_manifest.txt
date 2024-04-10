@@ -1,0 +1,17 @@
+/home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/package_run_dependencies/answer
+/home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/parent_prefix_path/answer
+/home/sukihan/RMhomework/answer/install/answer/share/answer/environment/ament_prefix_path.sh
+/home/sukihan/RMhomework/answer/install/answer/share/answer/environment/ament_prefix_path.dsv
+/home/sukihan/RMhomework/answer/install/answer/share/answer/environment/path.sh
+/home/sukihan/RMhomework/answer/install/answer/share/answer/environment/path.dsv
+/home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.bash
+/home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.sh
+/home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.zsh
+/home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.dsv
+/home/sukihan/RMhomework/answer/install/answer/share/answer/package.dsv
+/home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/packages/answer
+/home/sukihan/RMhomework/answer/install/answer/share/answer/cmake/answerConfig.cmake
+/home/sukihan/RMhomework/answer/install/answer/share/answer/cmake/answerConfig-version.cmake
+/home/sukihan/RMhomework/answer/install/answer/share/answer/package.xml
+/home/sukihan/RMhomework/answer/install/answer/lib/answer/answer
+/home/sukihan/RMhomework/answer/install/answer/share/answer/answer.py

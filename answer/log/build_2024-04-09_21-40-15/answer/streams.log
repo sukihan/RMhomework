@@ -1,0 +1,54 @@
+[0.021s] Invoking command in '/home/sukihan/RMhomework/answer/build/answer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sukihan/RMhomework/answer/build/answer -- -j16 -l16
+[0.071s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.310s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.372s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.388s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.550s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.552s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.121s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.362s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.396s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.550s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.550s] -- Configured cppcheck include dirs: /home/sukihan/RMhomework/answer/include
+[1.550s] -- Configured cppcheck exclude dirs and/or files: 
+[1.554s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.562s] -- Added test 'lint_cmake' to check CMake code style
+[1.566s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.595s] -- Added test 'uncrustify' to check C / C++ code style
+[1.595s] -- Configured uncrustify additional arguments: 
+[1.599s] -- Added test 'xmllint' to check XML markup files
+[1.610s] -- Configuring done
+[1.638s] -- Generating done
+[1.642s] -- Build files have been written to: /home/sukihan/RMhomework/answer/build/answer
+[1.698s] [35m[1mConsolidate compiler generated dependencies of target answer[0m
+[1.748s] [100%] Built target answer
+[1.773s] Invoked command in '/home/sukihan/RMhomework/answer/build/answer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sukihan/RMhomework/answer/build/answer -- -j16 -l16
+[1.848s] Invoking command in '/home/sukihan/RMhomework/answer/build/answer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sukihan/RMhomework/answer/build/answer
+[1.861s] -- Install configuration: ""
+[1.862s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/package_run_dependencies/answer
+[1.862s] -- Installing: /home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/parent_prefix_path/answer
+[1.862s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/answer/environment/ament_prefix_path.sh
+[1.863s] -- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/environment/ament_prefix_path.dsv
+[1.863s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/answer/environment/path.sh
+[1.863s] -- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/environment/path.dsv
+[1.863s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.bash
+[1.864s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.sh
+[1.864s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.zsh
+[1.864s] -- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/local_setup.dsv
+[1.864s] -- Installing: /home/sukihan/RMhomework/answer/install/answer/share/answer/package.dsv
+[1.865s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/ament_index/resource_index/packages/answer
+[1.865s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/answer/cmake/answerConfig.cmake
+[1.865s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/answer/cmake/answerConfig-version.cmake
+[1.866s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/share/answer/package.xml
+[1.866s] -- Up-to-date: /home/sukihan/RMhomework/answer/install/answer/lib/answer/answer
+[1.866s] [31mCMake Error at cmake_install.cmake:125 (file):
+[1.867s]   file INSTALL cannot find
+[1.867s]   "/home/sukihan/RMhomework/answer/scripts/answer.py": No such file or
+[1.867s]   directory.
+[1.867s] 
+[1.867s] [0m
+[1.870s] Invoked command in '/home/sukihan/RMhomework/answer/build/answer' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sukihan/RMhomework/answer/build/answer
