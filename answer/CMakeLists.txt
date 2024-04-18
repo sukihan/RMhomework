@@ -51,7 +51,7 @@ DESTINATION lib/${PROJECT_NAME}
 )
 
 install(PROGRAMS
-src/answer.py
+launch/answer.py
 DESTINATION share/${PROJECT_NAME}
 )
 

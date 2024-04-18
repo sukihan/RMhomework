@@ -1,4 +1,0 @@
-Invoking command in '/home/sukihan/RMhomework/answer/build/answer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sukihan/RMhomework/answer -DCMAKE_INSTALL_PREFIX=/home/sukihan/RMhomework/answer/install/answer
-Invoked command in '/home/sukihan/RMhomework/answer/build/answer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sukihan/RMhomework/answer -DCMAKE_INSTALL_PREFIX=/home/sukihan/RMhomework/answer/install/answer
-Invoking command in '/home/sukihan/RMhomework/answer/build/answer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sukihan/RMhomework/answer/build/answer -- -j16 -l16
-Invoked command in '/home/sukihan/RMhomework/answer/build/answer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sukihan/RMhomework/answer/build/answer -- -j16 -l16

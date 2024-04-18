@@ -16,16 +16,20 @@ public:
         pub = this->create_publisher<geometry_msgs::msg::Point32>("/click_position",10);
     }
 private:
-    void callback(const sensor_msgs::msg::Image::SharedPtr image){
+    void callback(const sensor_msgs::msg::Image::SharedPtr image)
+    {
         cv_bridge::CvImagePtr cv_ptr;
         cv_ptr = cv_bridge::toCvCopy(image,sensor_msgs::image_encodings::BGR8);
         cv::Mat& img = cv_ptr->image;
         cv::Point2f point = GetClickPoint(img);
-        
-        auto ClickPoint = std::make_shared<geometry_msgs::msg::Point32>();
-        ClickPoint->x = point.x;
-        ClickPoint->y = point.y;
-        pub->publish(*ClickPoint);
+        if (point.x != -1 && point.y != -1){
+            auto ClickPoint = std::make_shared<geometry_msgs::msg::Point32>();
+            ClickPoint->x = point.x;
+            ClickPoint->y = point.y;
+            pub->publish(*ClickPoint);
+        }else{
+            RCLCPP_ERROR(this->get_logger(),"No Valid Point");
+        }
     }
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr sub;
     rclcpp::Publisher<geometry_msgs::msg::Point32>::SharedPtr pub;
